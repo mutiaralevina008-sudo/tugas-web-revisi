@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+
+  <!-- CSS Eksternal -->
+  <link rel="stylesheet" href="styleportofolio.css">
+
+  <!-- CSS Internal -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa; /* Biru pastel */
+      color: #212121; /* Hitam pekat */
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #0d47a1; /* Biru gelap */
+      margin-top: 40px;
+      font-size: 36px;
+    }
+
+    h2 {
+      color: #455a64; /* Abu kebiruan */
+      font-style: italic;
+      margin-top: 30px;
+    }
+
+    p, li {
+      color: #333;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      font-weight: bold;
+    }
+
+    a {
+      color: #1a237e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .foto-container {
+      position: relative;
+      display: inline-block;
+      margin: 30px auto;
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .bintang {
+      position: absolute;
+      font-size: 24px;
+      color: gold;
+    }
+
+    .bintang:nth-child(2) {
+      top: -10px;
+      left: -10px;
+    }
+
+    .bintang:nth-child(3) {
+      top: -10px;
+      right: -10px;
+    }
+
+    .bintang:nth-child(4) {
+      bottom: -10px;
+      left: -10px;
+    }
+
+    .bintang:nth-child(5) {
+      bottom: -10px;
+      right: -10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ABOUT ME</h1>
+  <p>Nama lengkap saya <strong>LEVINA MUTIARA</strong></p>
+  <p>Saya sekolah di <strong>SMKN 8 Malang</strong>.</p>
+  <p>Hobi saya adalah:</p>
+  <ul>
+    <li>Mendengarkan musik</li>
+  </ul>
+
+  <h1>SOSIAL MEDIA</h1>
+  <p>Instagram:
+    <a href="https://www.instagram.com/levidkrm" target="_blank">
+      Klik untuk lihat profil levidkrm
+    </a>
+  </p>
+
+  <h2>Link Instagram</h2>
+  <a href="https://www.instagram.com" target="_blank">Klik di sini</a>
+
+  <!-- Foto dengan bintang -->
+  <div class="foto-container">
+    <span class="bintang">⭐</span>
+    <span class="bintang">⭐</span>
+    <span class="bintang">⭐</span>
+    <span class="bintang">⭐</span>
+    <img src="WhatsApp Image 2025-08-07 at 6.46.56 AM.jpeg" alt="Foto Levina">
+  </div>
+
+</body>
+</html>
